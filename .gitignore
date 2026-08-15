@@ -1,0 +1,39 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Environment variables — ALL .env files (keys, secrets, tokens)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Common ignores
+node_modules
+.next/
+out/
+.DS_Store
+Thumbs.db
+nul
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript build info
+tsconfig.tsbuildinfo
+
+# SEC EDGAR local data cache / output
+public/edgar_out/
+
+# Python cache
+__pycache__/
+*.pyc
