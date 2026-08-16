@@ -1,9 +1,6 @@
 @echo off
-title EDGAR Extraction Terminal
-echo.
-echo  EDGAR Extraction Terminal
-echo  ========================
-echo.
+title Portal EDGAR
+cd /d "%~dp0"
 
 where node >nul 2>&1
 if errorlevel 1 (
